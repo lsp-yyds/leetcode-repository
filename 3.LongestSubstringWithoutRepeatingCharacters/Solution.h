@@ -2,7 +2,6 @@
 // Created by bruce on 2/1/23.
 //
 
-#include <iostream>
 #include <unordered_set>
 
 bool checkRepetition(std::string& s, int start, int end) {
@@ -35,11 +34,3 @@ class Solution {
         return res;
     }
 };
-
-int main(int argc, char const* argv[]) {
-    std::string s = "pwwkew";
-
-    std::cout << Solution::lengthOfLongestSubstring(s) << std::endl;
-
-    return 0;
-}
