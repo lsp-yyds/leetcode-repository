@@ -1,7 +1,7 @@
 //
 // Created by bruce on 2/23/23.
 //
-#include "Solution.h"
+#include "Solution.hpp"
 
 int main(int argc, char const* argv[]) {
     string s = "babad";
